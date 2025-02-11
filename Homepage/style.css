@@ -1,0 +1,149 @@
+.cormorant-garamond-light {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.cormorant-garamond-regular {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cormorant-garamond-medium {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.cormorant-garamond-semibold {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.cormorant-garamond-bold {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.cormorant-garamond-light-italic {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.cormorant-garamond-regular-italic {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.cormorant-garamond-medium-italic {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.cormorant-garamond-semibold-italic {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.cormorant-garamond-bold-italic {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.header {
+    width: auto;
+    height: auto;
+}
+
+.top-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* Pushes elements to the edges */
+    padding: 0 20px;
+    /* Adds some spacing */
+    border-bottom: 0.1em solid #FFDD00;
+}
+
+.left-link,
+.right-link {
+    font-family: 'Quentin Blake';
+    font-size: 2em;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.left-link:hover,
+.right-link:hover {
+    color: #FFDD00;
+}
+
+.right-link {
+    background-color: #FFDD00;
+    border: 0;
+    outline: 0;
+    border-radius: 1.5em;
+    padding-top: 0.2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.right-link:hover {
+    background-color: #EB4460;
+}
+
+.menu {
+    font-family: 'Quentin Blake', serif;
+    font-size: larger;
+    text-decoration: none;
+    color: antiquewhite;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.menu div {
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    list-style: none;
+    margin-left: 1em;
+    padding: 0;
+}
+
+.seed-phase,
+.experimentation-phase,
+.craft-phase,
+.completion-phase {
+    width: 20em;
+    height: 10em;
+    color: antiquewhite;
+    margin-top: 1em;
+}
+
+.seed-phase {
+    background-color: #EB4460;
+}
+
+.experimentation-phase {
+    background-color: #A14467;
+}
+
+.craft-phase {
+    background-color: #5096EB;
+}
+
+.completion-phase {
+    background-color: #A4B201;
+}
