@@ -1,0 +1,107 @@
+ /* inter font styling */
+
+ .inter-classic {
+     font-family: "Inter", serif;
+     font-optical-sizing: auto;
+     font-weight: 100;
+     font-style: normal;
+ }
+
+ /* ACTUAL webpage styling */
+ /* header */
+ .header {
+     width: auto;
+     height: auto;
+ }
+
+ .top-nav {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0 20px;
+     border-bottom: 0.3em solid #FFB935;
+ }
+
+ .left-link,
+ .right-link {
+     font-family: 'Quentin Blake';
+     font-size: 2em;
+     text-decoration: none;
+     color: rgb(0, 0, 0);
+ }
+
+ .left-link:hover,
+ .right-link:hover {
+     color: #FFB935;
+ }
+
+ .right-link {
+     background-color: #FFB935;
+     border: 0;
+     outline: 0;
+     border-radius: 1em;
+     padding-top: 0.2em;
+     padding-left: 0.5em;
+     padding-right: 0.5em;
+ }
+
+ .right-link:hover {
+     background-color: #000000;
+ }
+
+ /* menu */
+ .menu {
+     font-family: "Inter", serif;
+     font-size: larger;
+     text-decoration: none;
+     color: rgb(255, 255, 255);
+     text-align: left;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end;
+ }
+
+ .menu div {
+     margin: 0;
+     padding: 0;
+ }
+
+ .menu li {
+     list-style: none;
+     margin-left: 1em;
+ }
+
+ .menu a {
+     color: rgb(255, 255, 255);
+ }
+
+ .seed-phase,
+ .experimentation-phase,
+ .craft-phase,
+ .completion-phase {
+     width: 20em;
+     height: 10em;
+     color: white;
+     margin-top: 1em;
+ }
+
+ .heading a {
+     font-size: x-large;
+     padding: 1em;
+ }
+
+ .seed-phase {
+     background-color: #DB6A58;
+ }
+
+ .experimentation-phase {
+     background-color: #916073;
+ }
+
+ .craft-phase {
+     background-color: #65A2CC;
+ }
+
+ .completion-phase {
+     background-color: #8E9631;
+ }
