@@ -116,7 +116,7 @@ body {
     width: 115%;
     height: 30em;
     background-color: white;
-    border: 0.3em solid #5096EB;
+    border: 0.3em solid #A4B201;
     padding: 2em;
     margin: 4em;
     border-radius: 1em;
@@ -166,7 +166,7 @@ p {
     text-decoration: underline;
 }
 
-.experimentation-phase,
+.completion-phase,
 .craft-phase {
     width: 20em;
     height: 19em;
@@ -180,7 +180,7 @@ p {
     padding-top: 2em;
 }
 
-.experimentation-phase a,
+.completion-phase a,
 .craft-phase a {
     font-size: 3em;
     line-height: 130%;
@@ -192,13 +192,12 @@ p {
     padding: 1em;
 }
 
-
-.experimentation-phase {
-    background-color: #A14467;
-}
-
 .craft-phase {
     background-color: #5096EB;
+}
+
+.completion-phase {
+    background-color: #A4B201;
 }
 
 .heading {
