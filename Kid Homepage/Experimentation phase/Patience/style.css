@@ -116,7 +116,7 @@ body {
     width: 115%;
     height: 30em;
     background-color: white;
-    border: 0.3em solid #EB4460;
+    border: 0.3em solid #A14467;
     padding: 2em;
     margin: 4em;
     border-radius: 1em;
@@ -148,7 +148,11 @@ p {
 
 .menu div {
     margin: 0;
-    padding-top: 4.5em;
+    padding-top: 5em;
+}
+
+.seed-phase div {
+    padding-top: 5em;
 }
 
 .menu a {
@@ -162,7 +166,7 @@ p {
 }
 
 .seed-phase,
-.quote {
+.experimentation-phase {
     width: 20em;
     height: 19em;
     border-radius: 1em;
@@ -176,7 +180,7 @@ p {
 }
 
 .seed-phase a,
-.quote a {
+.experimentation-phase a {
     font-size: 3em;
     line-height: 130%;
     text-decoration: none;
@@ -189,6 +193,10 @@ p {
 
 .seed-phase {
     background-color: #EB4460;
+}
+
+.experimentation-phase {
+    background-color: #A14467;
 }
 
 .heading {

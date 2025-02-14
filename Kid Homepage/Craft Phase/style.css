@@ -116,7 +116,7 @@ body {
     width: 115%;
     height: 30em;
     background-color: white;
-    border: 0.3em solid #EB4460;
+    border: 0.3em solid #5096EB;
     padding: 2em;
     margin: 4em;
     border-radius: 1em;
@@ -130,6 +130,7 @@ p {
     font-family: "Cormorant Garamond", serif;
     font-size: 1.6em;
     margin-top: 0.2em;
+    color: #5096EB;
 }
 
 /* Adjust menu size */
@@ -148,7 +149,11 @@ p {
 
 .menu div {
     margin: 0;
-    padding-top: 4.5em;
+    padding-top: 5em;
+}
+
+.seed-phase div {
+    padding-top: 5em;
 }
 
 .menu a {
@@ -161,8 +166,8 @@ p {
     text-decoration: underline;
 }
 
-.seed-phase,
-.quote {
+.experimentation-phase,
+.craft-phase {
     width: 20em;
     height: 19em;
     border-radius: 1em;
@@ -175,8 +180,8 @@ p {
     padding-top: 2em;
 }
 
-.seed-phase a,
-.quote a {
+.experimentation-phase a,
+.craft-phase a {
     font-size: 3em;
     line-height: 130%;
     text-decoration: none;
@@ -187,11 +192,17 @@ p {
     padding: 1em;
 }
 
-.seed-phase {
-    background-color: #EB4460;
+
+.experimentation-phase {
+    background-color: #A14467;
+}
+
+.craft-phase {
+    background-color: #5096EB;
 }
 
 .heading {
     font-family: 'Quentin Blake';
     font-size: 2em;
+    color: #5096EB;
 }

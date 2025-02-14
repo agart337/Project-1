@@ -99,7 +99,7 @@ body {
 
 .left-link:hover,
 .right-link:hover {
-    color: #F6BE00;
+    text-decoration: underline;
 }
 
 /* Wrapper for textbox and menu */
