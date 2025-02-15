@@ -131,6 +131,7 @@ p {
     font-family: "Cormorant Garamond", serif;
     font-size: 1.6em;
     margin-top: 0.2em;
+    color: #F6BE00;
 }
 
 /* Adjust menu size */
@@ -200,6 +201,7 @@ p {
 .heading {
     font-family: 'Quentin Blake';
     font-size: 2em;
+    color: #F6BE00;
 }
 
 .next {
