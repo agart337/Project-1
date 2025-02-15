@@ -157,6 +157,7 @@ p {
     list-style: none;
     margin-left: 0em;
     color: black;
+    padding-top: 0.8em;
 }
 
 .menu :hover {
@@ -169,24 +170,24 @@ p {
     height: 19em;
     border-radius: 1em;
     color: white;
-    margin-top: 1em;
+    margin-top: 2em;
     font-size: 1em;
     text-align: center;
     align-items: center;
     box-sizing: border-box;
-    padding-top: 2.5em;
+    padding-top: 2em;
+    padding-inline-start: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .seed-phase a,
 .kid-homepage a {
-    font-size: 3em;
-    line-height: 130%;
+    font-family: 'Quentin Blake';
+    font-size: 2em;
+    line-height: 140%;
     text-decoration: none;
-}
-
-.heading a {
-    font-size: x-large;
-    padding-top: 1em;
 }
 
 .seed-phase {
@@ -201,4 +202,9 @@ p {
     font-family: 'Quentin Blake';
     font-size: 2em;
     color: #EB4460;
+}
+
+.next {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }

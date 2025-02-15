@@ -126,10 +126,15 @@ body {
     overflow: auto;
 }
 
-p {
+p,
+.poem {
     font-family: "Cormorant Garamond", serif;
     font-size: 1.6em;
     margin-top: 0.2em;
+}
+
+.poem {
+    text-decoration: underline;
 }
 
 /* Adjust menu size */
@@ -143,18 +148,19 @@ p {
     text-align: left;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .menu div {
     margin: 0;
-    padding-top: 4.5em;
+    padding-top: 4em;
 }
 
 .menu a {
     list-style: none;
     margin-left: 0em;
     color: black;
+    padding-top: 1.5em;
 }
 
 .menu :hover {
@@ -167,18 +173,23 @@ p {
     height: 19em;
     border-radius: 1em;
     color: white;
-    margin-top: 1em;
+    margin-top: 2em;
     font-size: 1em;
     text-align: center;
     align-items: center;
     box-sizing: border-box;
     padding-top: 2em;
+    padding-inline-start: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .seed-phase a,
 .quote a {
-    font-size: 3em;
-    line-height: 130%;
+    font-family: 'Quentin Blake';
+    font-size: 2em;
+    line-height: 140%;
     text-decoration: none;
 }
 
@@ -194,4 +205,9 @@ p {
 .heading {
     font-family: 'Quentin Blake';
     font-size: 2em;
+}
+
+.next {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }

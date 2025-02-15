@@ -144,22 +144,19 @@ p {
     text-align: left;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .menu div {
     margin: 0;
-    padding-top: 4em;
-}
-
-.seed-phase div {
-    padding-top: 5em;
+    padding-top: 3em;
 }
 
 .menu a {
     list-style: none;
     margin-left: 0em;
     color: black;
+    padding-top: 1.7em;
 }
 
 .menu :hover {
@@ -172,26 +169,24 @@ p {
     height: 19em;
     border-radius: 1em;
     color: white;
-    margin-top: 1em;
+    margin-top: 2em;
     font-size: 1em;
     text-align: center;
     align-items: center;
     box-sizing: border-box;
     padding-top: 2em;
+    padding-inline-start: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .experimentation-phase a,
 .craft-phase a {
-    font-size: 3em;
-    line-height: 130%;
+    font-size: 2em;
+    line-height: 140%;
     text-decoration: none;
 }
-
-.heading a {
-    font-size: x-large;
-    padding: 1em;
-}
-
 
 .experimentation-phase {
     background-color: #A14467;
@@ -204,5 +199,9 @@ p {
 .heading {
     font-family: 'Quentin Blake';
     font-size: 2em;
-    color: black;
+}
+
+.next {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
