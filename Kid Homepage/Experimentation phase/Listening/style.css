@@ -148,21 +148,27 @@ p {
 
 .menu div {
     margin: 0;
-    padding-top: 2em;
 }
 
 .menu a {
     list-style: none;
     margin-left: 0em;
     color: black;
+}
+
+.button1 a {
     padding-top: 2em;
+}
+
+.experimentation-phase a {
+    padding-top: 0.75em;
 }
 
 .menu :hover {
     text-decoration: underline;
 }
 
-.seed-phase,
+.button1,
 .experimentation-phase {
     width: 20em;
     height: 19em;
@@ -180,7 +186,7 @@ p {
     justify-content: flex-start;
 }
 
-.seed-phase a,
+.button1 a,
 .experimentation-phase a {
     font-family: 'Quentin Blake';
     font-size: 2em;
@@ -188,11 +194,8 @@ p {
     text-decoration: none;
 }
 
-.seed-phase {
-    background-color: #EB4460;
-}
-
-.experimentation-phase {
+.experimentation-phase,
+.button1 {
     background-color: #A14467;
 }
 
