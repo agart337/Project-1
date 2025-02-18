@@ -115,11 +115,11 @@ body {
 /* Styling for the textbox */
 .textbox {
     width: 115%;
-    height: 30em;
-    background-color: white;
+    height: 38em;
+    background: radial-gradient(#fff, #FFDD00);
     border: 0.3em solid #FFDD00;
     padding: 2em;
-    margin: 4em;
+
     border-radius: 1em;
     font-family: "Cormorant Garamond", serif;
     font-size: 1.2em;
