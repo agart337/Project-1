@@ -1,0 +1,292 @@
+/* ACTUAL webpage styling */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: white;
+    overscroll-behavior: none;
+}
+
+/* header */
+.header {
+    width: auto;
+    height: auto;
+}
+
+.top-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-bottom: 0.3em solid #FFDD00;
+    background-color: #FFDD00;
+    padding: auto;
+}
+
+.left-link,
+.right-link {
+    font-family: 'Quentin Blake';
+    font-size: 2em;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.left-link:hover,
+.right-link:hover {
+    text-decoration: underline;
+}
+
+/* Wrapper for textbox and menu */
+.content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+
+}
+
+/* Styling for the textbox */
+.textbox {
+    width: 115%;
+    height: 38em;
+    border: 0.3em solid #fff;
+    padding: 2em;
+    border-radius: 1em;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.2em;
+    color: black;
+    overflow: auto;
+}
+
+.seed-phase-textbox {
+    width: 115%;
+    height: 38em;
+    border: 0.3em solid #fff;
+    padding: 2em;
+    border-radius: 1em;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.2em;
+    color: black;
+    overflow: auto;
+    background-color: #EB4460;
+}
+
+.experimentation-phase-textbox {
+    width: 115%;
+    height: 38em;
+    border: 0.3em solid #fff;
+    padding: 2em;
+    border-radius: 1em;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.2em;
+    color: black;
+    overflow: auto;
+    background-color: #A14467;
+}
+
+.craft-phase-textbox {
+    width: 115%;
+    height: 38em;
+    border: 0.3em solid #fff;
+    padding: 2em;
+    border-radius: 1em;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.2em;
+    color: black;
+    overflow: auto;
+    background-color: #5096EB;
+}
+
+.completion-phase-textbox {
+    width: 115%;
+    height: 38em;
+    border: 0.3em solid #fff;
+    padding: 2em;
+    border-radius: 1em;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.2em;
+    color: black;
+    overflow: auto;
+    background-color: #A4B201;
+}
+
+p,
+.poem {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.6em;
+    margin-top: 0.2em;
+}
+
+.poem {
+    text-decoration: underline;
+}
+
+.about {
+    font-family: 'Quentin Blake';
+    font-size: 2em;
+    color: #F6BE00;
+}
+
+.chapter {
+    font-family: 'Quentin Blake';
+    font-size: 2em;
+    color: #000;
+}
+
+.the-seed-phase {
+    font-family: 'Quentin Blake';
+    font-size: 2em;
+    color: #EB4460;
+}
+
+.the-experimentation-phase {
+    font-family: 'Quentin Blake';
+    font-size: 2em;
+    color: #A14467;
+}
+
+.the-craft-phase {
+    font-family: 'Quentin Blake';
+    font-size: 2em;
+    color: #5096EB;
+}
+
+.the-completion-phase {
+    font-family: 'Quentin Blake';
+    font-size: 2em;
+    color: #A4B201;
+}
+
+.about-text {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.6em;
+    margin-top: 0.2em;
+    color: #F6BE00;
+}
+
+.the-seed-phase-text {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.6em;
+    margin-top: 0.2em;
+    color: #EB4460;
+}
+
+.the-experimentation-phase-text {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.6em;
+    margin-top: 0.2em;
+    color: #A14467;
+}
+
+.the-craft-phase-text {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.6em;
+    margin-top: 0.2em;
+    color: #5096EB;
+}
+
+.the-completion-phase-text {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.6em;
+    margin-top: 0.2em;
+    color: #A4B201;
+}
+
+/* Adjust menu size */
+
+/* menu styling*/
+.menu {
+    font-family: "Quentin Blake", serif;
+    font-size: larger;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu div {
+    margin: 0;
+    padding-top: 0em;
+}
+
+.menu a {
+    list-style: none;
+    margin-left: 0em;
+    color: black;
+    padding-top: 2em;
+}
+
+.menu :hover {
+    text-decoration: underline;
+}
+
+.a-way-of-being,
+.seed-phase,
+.experimentation-phase,
+.craft-phase,
+.completion-phase {
+    width: 20em;
+    height: 18.75em;
+    border-radius: 1em;
+    margin-top: 2em;
+    font-size: 1em;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 2em;
+    padding-inline-start: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.a-way-of-being a,
+.seed-phase a,
+.experimentation-phase a,
+.craft-phase a,
+.completion-phase a {
+    font-family: 'Quentin Blake';
+    font-size: 2em;
+    line-height: 140%;
+    text-decoration: none;
+}
+
+.a-way-of-being {
+    background-color: #FFDD00;
+    border-bottom: 0.3em solid #fff;
+}
+
+.seed-phase {
+    background-color: #EB4460;
+    border-bottom: 0.3em solid #fff;
+}
+
+.experimentation-phase {
+    background-color: #A14467;
+    border-bottom: 0.3em solid #fff;
+}
+
+.craft-phase {
+    background-color: #5096EB;
+    border-bottom: 0.3em solid #fff;
+}
+
+.completion-phase {
+    background-color: #A4B201;
+    border-bottom: 0.3em solid #fff;
+}
+
+.next {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
