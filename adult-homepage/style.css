@@ -124,7 +124,7 @@
  }
 
  .about {
-     font-family: "Inter", serif;
+     font-family: 'Quentin Blake', serif;
      font-size: 2em;
      color: #F6BE00;
  }
@@ -174,11 +174,11 @@
 
  .about-text {
      font-family: "Inter", serif;
-     font-size: 1.2em;
-     font-weight: 600;
+     font-size: 1.3em;
+     font-weight: 300;
      margin-top: 0.2em;
      color: #F6BE00;
-     line-height: 1.3em;
+     line-height: 1.4em;
  }
 
  .the-seed-phase-text {
