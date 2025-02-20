@@ -31,7 +31,10 @@
      display: flex;
      align-items: center;
      justify-content: space-between;
-     padding: 0 20px;
+     padding-top: 0.5em;
+     padding-left: 2em;
+     padding-right: 2em;
+     border-bottom: 0.3em solid #FFD335;
      background-color: #FFD335;
      padding: auto;
  }
@@ -53,48 +56,210 @@
  .content-container {
      display: flex;
      flex-direction: row;
+     justify-content: space-between;
      width: 100%;
      align-items: center;
-     justify-content: flex-start;
-     /* Align items from left to right */
-     align-items: flex-start;
-     /* Align elements to the top */
-     gap: 2em;
-     /* Add space between menu and textbox */
 
  }
 
  /* Styling for the textbox */
  .textbox {
      width: 115%;
-     height: 30em;
-     background-color: white;
-     border: 0.3em solid #FFD335;
+     height: 38em;
+     border: 0.3em solid #fff;
      padding: 2em;
-     margin-right: 2.3em;
-     margin-bottom: 0em;
-     margin-top: 4em;
-     margin-left: 4em;
-     border-radius: 1em;
-     font-family: "Inter", serif;
      font-size: 1.2em;
      color: black;
      overflow: auto;
  }
 
- .heading {
-     font-family: 'Quentin Blake';
+ .seed-phase-textbox {
+     width: 115%;
+     height: 38em;
+     border: 0.3em solid #fff;
+     padding: 2em;
+     font-size: 1.2em;
+     color: black;
+     overflow: auto;
+     background-color: #ff5e68;
+ }
+
+ .experimentation-phase-textbox {
+     width: 115%;
+     height: 38em;
+     border: 0.3em solid #fff;
+     padding: 2em;
+     font-size: 1.2em;
+     color: black;
+     overflow: auto;
+     background-color: #A85188;
+ }
+
+ .craft-phase-textbox {
+     width: 115%;
+     height: 38em;
+     border: 0.3em solid #fff;
+     padding: 2em;
+     font-size: 1.2em;
+     color: black;
+     overflow: auto;
+     background-color: #5999C5;
+ }
+
+ .completion-phase-textbox {
+     width: 115%;
+     height: 38em;
+     border: 0.3em solid #fff;
+     padding: 2em;
+     font-size: 1.2em;
+     color: black;
+     overflow: auto;
+     background-color: #A5AE32;
+ }
+
+ .chapter {
+     font-family: 'Quentin Blake', serif;
+     font-size: 2em;
+     color: #000;
+ }
+
+ .about {
+     font-family: "Inter", serif;
      font-size: 2em;
      color: #F6BE00;
  }
 
- p {
+ .the-seed-phase {
+     font-family: 'Quentin Blake', serif;
+     font-size: 2em;
+     color: #ff5e68;
+ }
+
+ .the-experimentation-phase {
+     font-family: 'Quentin Blake', serif;
+     font-size: 2em;
+     color: #81406A;
+ }
+
+ .the-craft-phase {
+     font-family: 'Quentin Blake', serif;
+     font-size: 2em;
+     color: #5999C5;
+ }
+
+ .the-completion-phase {
+     font-family: 'Quentin Blake', serif;
+     font-size: 2em;
+     color: #A5AE32;
+ }
+
+ p,
+ .poem,
+ .subset {
+     font-family: "Inter", serif;
+     font-size: 1.2em;
+     font-weight: 300;
+     margin-top: 0.2em;
+     color: #000;
+     line-height: 1.3em;
+ }
+
+ .subset {
+     font-weight: 600;
+ }
+
+ .poem {
+     text-decoration: underline;
+ }
+
+ .about-text {
+     font-family: "Inter", serif;
+     font-size: 1.2em;
+     font-weight: 600;
+     margin-top: 0.2em;
+     color: #F6BE00;
+     line-height: 1.3em;
+ }
+
+ .the-seed-phase-text {
      font-family: "Inter", serif;
      font-size: 1.3em;
      font-weight: 300;
      margin-top: 0.2em;
-     color: #F6BE00;
-     line-height: 1.3em;
+     color: #ff5e68;
+     line-height: 1.4em;
+ }
+
+ .the-experimentation-phase-text {
+     font-family: "Inter", serif;
+     font-size: 1.3em;
+     font-weight: 300;
+     margin-top: 0.2em;
+     color: #81406A;
+     line-height: 1.4em;
+ }
+
+ .the-craft-phase-text {
+     font-family: "Inter", serif;
+     font-size: 1.3em;
+     font-weight: 300;
+     margin-top: 0.2em;
+     color: #5999C5;
+     line-height: 1.4em;
+ }
+
+ .the-completion-phase-text {
+     font-family: "Inter", serif;
+     font-size: 1.3em;
+     font-weight: 300;
+     margin-top: 0.2em;
+     color: #A5AE32;
+     line-height: 1.4em;
+ }
+
+ /* menu subheading specifications */
+ .button1 a.sub-heading,
+ .button2 a.sub-heading,
+ .button3 a.sub-heading,
+ .button4 a.sub-heading {
+     font-family: 'Quentin Blake', serif;
+     font-size: 1.6em;
+     font-weight: 200;
+     margin-bottom: 1em;
+     color: black;
+     text-decoration: none;
+ }
+
+ .button1 a.sub-heading:hover,
+ .button2 a.sub-heading:hover,
+ .button3 a.sub-heading:hover,
+ .button4 a.sub-heading:hover {
+     text-decoration: underline;
+ }
+
+ .seed-phase,
+ .experimentation-phase,
+ .craft-phase,
+ .completion-phase {
+     font-family: 'Inter', serif;
+     font-weight: 300;
+     font-size: 1.3em;
+     text-decoration: none;
+ }
+
+ #awareness:hover,
+ #self-doubt:hover,
+ #distraction:hover,
+ #listening:hover,
+ #patience:hover,
+ #inspiration:hover,
+ #breaking-the-sameness:hover,
+ #the-experimenter-and-the-finisher:hover,
+ #connected-detachment-possibility:hover,
+ #non-Competition:hover,
+ #self-awareness:hover,
+ #staying-in-it:hover {
+     text-decoration: underline;
  }
 
  /* Adjust menu size */
@@ -114,13 +279,17 @@
      padding-top: 1.5em;
  }
 
+ .menu ul {
+     margin-top: 0.5em;
+ }
+
  .menu li {
      list-style: none;
      margin-left: 1em;
  }
 
  .menu a {
-     color: rgb(255, 255, 255);
+     color: black;
  }
 
  .button1,
@@ -128,72 +297,27 @@
  .button3,
  .button4 {
      width: 24em;
-     height: 11.6em;
-     border-radius: 1em;
-     color: white;
+     height: 11.4em;
      margin-top: 1em;
      font-size: 1em;
      text-align: left;
      align-items: center;
      box-sizing: border-box;
+     border-top: 0.3em solid white;
  }
 
  .button1 {
-     background-color: #CE4E57;
+     background-color: #F0636C;
  }
 
  .button2 {
-     background-color: #81406A;
+     background-color: #A85188;
  }
 
  .button3 {
-     background-color: #4886B0;
+     background-color: #5999C5;
  }
 
  .button4 {
-     background-color: #828931;
- }
-
- /* subheading specifications */
- .button1 a.sub-heading,
- .button2 a.sub-heading,
- .button3 a.sub-heading,
- .button4 a.sub-heading {
-     font-family: 'Quentin Blake';
-     font-size: 1.6em;
-     padding-bottom: 1em;
-     color: white;
-     text-decoration: none;
- }
-
- .button1 a.sub-heading:hover,
- .button2 a.sub-heading:hover,
- .button3 a.sub-heading:hover,
- .button4 a.sub-heading:hover {
-     text-decoration: underline;
- }
-
- .seed-phase,
- .experimentation-phase,
- .craft-phase,
- .completion-phase {
-     font-family: "Inter", serif;
-     font-weight: 300;
-     font-size: 1.3em;
-     text-decoration: none;
- }
-
- #awareness:hover,
- #self-doubt:hover,
- #distraction:hover,
- #listening:hover,
- #patience:hover,
- #inspiration:hover,
- #breaking-the-sameness:hover,
- #the-experimenter-and-the-finisher:hover,
- #connected-detachment-possibility:hover,
- #non-Competition:hover,
- #self-awareness:hover,
- #staying-in-it:hover {
-     text-decoration: underline;
+     background-color: #A5AE32;
  }
