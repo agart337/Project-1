@@ -222,7 +222,6 @@ p,
 .menu a {
     list-style: none;
     margin-left: 0em;
-    color: black;
     padding-top: 2em;
 }
 
@@ -234,7 +233,12 @@ p,
 .seed-phase,
 .experimentation-phase,
 .craft-phase,
-.completion-phase {
+.completion-phase,
+.a-way-of-being-button,
+.seed-phase-button,
+.experimentation-phase-button,
+.craft-phase-button,
+.completion-phase-button {
     width: 20em;
     height: 18.75em;
     border-radius: 1em;
@@ -248,6 +252,7 @@ p,
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    border-bottom: 0.3em solid #fff;
 }
 
 .a-way-of-being a,
@@ -259,34 +264,64 @@ p,
     font-size: 2em;
     line-height: 140%;
     text-decoration: none;
+    color: black;
 }
 
 .a-way-of-being {
     background-color: #FFDD00;
-    border-bottom: 0.3em solid #fff;
+
 }
 
 .seed-phase {
     background-color: #EB4460;
-    border-bottom: 0.3em solid #fff;
+
 }
 
 .experimentation-phase {
     background-color: #A14467;
-    border-bottom: 0.3em solid #fff;
+
 }
 
 .craft-phase {
     background-color: #5096EB;
-    border-bottom: 0.3em solid #fff;
 }
 
 .completion-phase {
     background-color: #A4B201;
-    border-bottom: 0.3em solid #fff;
 }
 
 .next {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
+}
+
+.a-way-of-being-button a,
+.seed-phase-button a,
+.experimentation-phase-button a,
+.craft-phase-button a,
+.completion-phase-button a {
+    font-family: 'Quentin Blake';
+    font-size: 2em;
+    line-height: 140%;
+    text-decoration: none;
+}
+
+.a-way-of-being-button a {
+    color: #FFDD00;
+}
+
+.seed-phase-button a {
+    color: #EB4460;
+}
+
+.experimentation-phase-button a {
+    color: #A14467;
+}
+
+.craft-phase-button a {
+    color: #5096EB;
+}
+
+.completion-phase-button a {
+    color: #A4B201;
 }
